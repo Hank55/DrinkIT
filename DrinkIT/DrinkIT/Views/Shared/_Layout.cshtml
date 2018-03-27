@@ -1,27 +1,111 @@
 ﻿<!DOCTYPE html>
-
-<html>
+    <html lang="en" class="full-height">
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title>@ViewBag.Title</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link href="~/css/nav.css" rel="stylesheet" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Material Design Bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">DrinkIT</a>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark black">
+            <div class="container">
+                <a class="navbar-brand" href="#"><strong>DrinkIT</strong></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Log in  <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">My page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Top drinks</a>
+                        </li>
+                        <li class="nav-item" style="text-align:right">
+                            <a class="nav-link" href="#">Search Drink</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-            </ul>
+        </nav>
+        <div class="view intro-2">
+            <div class="full-bg-img">
+                <div class="mask rgba-black-strong flex-center">
+                    <div class="container">
+                        <div class="white-text text-center wow fadeInUp">
+                            <h2>Welcome to DrinkIT</h2>
+                            <h5>DrinkIT your way!</h5>
+                            <br>
+                            <p>We have a continuously growing drink API, with goal to become the world leading drink site. Follow us on social media for more info... </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </nav>
+
+    </header>
     <div>
-        @RenderBody();
+        @RenderBody()
     </div>
+    <main class="text-center my-5">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <p align="justify">&copy 2018 DrinkIT - Sweden</p>
+
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/mdb.min.js"></script>
+
+
+@*@*<!DOCTYPE html>
+
+    <html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>@ViewBag.Title</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="~/css/nav.css" rel="stylesheet" />
+    </head>
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">DrinkIT</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="Home">Home</a></li>
+                    <li class="active"><a href="Home">Home</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div>
+            @RenderBody();
+        </div>
+        <div>
+            <footer class="footer">
+                &copy; @DateTime.Now.Year DrinkIT
+                <a href="/Home/about">About us</a>
+            </footer>
+        </div>
+    </body>
+    </html>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>*@

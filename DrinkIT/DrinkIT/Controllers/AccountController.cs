@@ -8,12 +8,14 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DrinkIT.Controllers
 {
-    [Route("")]
-    public class HomeController : Controller
+    public class AccountController : Controller
     {
-        public IActionResult Index()
+        [HttpGet]
+        [Route("LogIn")]
+        public IActionResult LogIn()
         {
             return View();
         }
     }
 }
+    

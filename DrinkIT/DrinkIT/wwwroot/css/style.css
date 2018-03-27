@@ -1,0 +1,25 @@
+.view {
+    background: url("http://www.healthyfoodhouse.com/wp-content/uploads/2014/11/3-amazing-drinks-that-will-help-burn-your-belly-fat-featured.jpg")no-repeat center center;
+    background-size: cover;
+}
+
+@media (min-width: 768px) {
+    .view {
+        overflow: visible;
+        margin-top: -56px;
+    }
+}
+
+.navbar {
+    z-index: 1;
+}
+
+h2{
+    font-size:60px;
+}
+
+h5 {
+    font-size: 40px;
+}
+
+    

@@ -22,3 +22,16 @@
         margin-top:25px;
        
     }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #E0EF96;
+    color: black;
+    text-align: center;
+    height:60px;
+    font-size:20px;
+    padding-top:20px;
+}
